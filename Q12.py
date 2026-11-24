@@ -1,0 +1,5 @@
+a = bool(int(input("Enter first truth value (1/0): ")))
+b = bool(int(input("Enter second truth value (1/0): ")))
+print("AND =", a and b)
+print("OR =", a or b)
+print("NOT a =", not a)
